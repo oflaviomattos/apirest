@@ -14,7 +14,7 @@ class BaseController
      * 
      * @return array
      */
-    protected function getStringParams() : array
+    protected function getStringParams() : array 
     {
         parse_str($_SERVER['QUERY_STRING'], $query);
         return $query;
